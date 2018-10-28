@@ -20,5 +20,6 @@ html {
 }
 
 header {
-  
+  background-image: url(../img/hero.jpg);
+  height: 100vh;
 }
