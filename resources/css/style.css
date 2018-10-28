@@ -26,6 +26,14 @@ header {
   height: 100vh;
 }
 
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); //translate 50% of its width value up and to the left.
+}
+
 h1 {
   margin: 0;
 }
