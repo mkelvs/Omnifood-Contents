@@ -20,7 +20,7 @@ html {
 }
 
 header {
-  background-image: url(../img/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -36,4 +36,10 @@ header {
 
 h1 {
   margin: 0;
+  color: #fff;
+  font-size: 240%; //based on parent font-size (html)
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
 }
