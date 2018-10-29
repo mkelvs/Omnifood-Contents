@@ -16,13 +16,14 @@
   box-sizing: border-box;
 }
 
-html {
+html{
   background-color: #fff;
   color: #555;
   font-family: 'Lato', 'Arial', 'sans-serif';
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 
 }
 
@@ -164,7 +165,6 @@ ion-icon {
   text-decoration: none;
   border-radius: 200px;
   transition: backgound-color 0.2s, border 0.2s, color 0.2s;
-
 }
 
 .btn-full:link,
