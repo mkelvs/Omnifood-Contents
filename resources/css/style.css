@@ -52,6 +52,7 @@ h1 {
   font-weight: 300;
   text-decoration: none;
   border-radius: 200px;
+  transition: backgound-color 0.2s, border 0.2s, color 0.2s;
 
 }
 
@@ -60,10 +61,28 @@ h1 {
   background-color: #e67e22;
   border: 1px solid #e67e22;
   color: #fff;
+  margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
   border: 1px solid #e67e22;
   color: #e67e22;
+}
+
+.btn:hover,
+.btn-active{
+  background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
 }
